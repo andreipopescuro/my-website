@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap");
+
+.container {
+  font-family: "Shantell Sans", cursive;
+  display: flex;
+  background: linear-gradient(black, rgb(2, 8, 26));
+}
+
+.bg-img-wrapper {
+  background: url(../../assets//code-img.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: inherit;
+  height: 100vh;
+}
+
+.content-slide {
+  width: 65%;
+}
+
+.bg-slide {
+  position: relative;
+  height: inherit;
+  background: transparent;
+  width: 35%;
+}
+
+.React {
+  color: teal;
+}
+
+.MongoDB {
+  color: rgb(7, 86, 26);
+}
+
+.HTML {
+  color: rgb(200, 72, 37);
+}
+
+.Javascript {
+  color: rgb(205, 187, 25);
+}
+
+.Next\.js {
+  color: gray;
+}
+
+.Tailwind {
+  color: rgb(41, 165, 241);
+}
+
+.CSS {
+  color: pink;
+}
+
+.ChatGPT {
+  color: rgb(105, 5, 33);
+}
+
+.Tidio {
+  color: violet;
+}
+
+.Contenful {
+  color: rgb(186, 104, 90);
+}
+
+.Firebase {
+  color: yellowgreen;
+}
+
+.Chakra-ui {
+  color: rgb(44, 25, 86);
+}
+
+.Swiper {
+  color: rgb(105, 5, 33);
+}
+
+.Redux {
+  color: crimson;
+}
+
+.Node {
+  color: rgb(41, 165, 241);
+}
+
+.Express {
+  color: red;
+}
+
+.Stripe {
+  color: aqua;
+}
+
+.black-shadow {
+  position: fixed;
+  width: inherit;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 554px) {
+  /* .container {
+    background: url(../../assets//code-img.png);
+    background-repeat: no-repeat;
+  } */
+  .bg-slide {
+    display: none;
+  }
+  .content-slide {
+    width: 100%;
+  }
+  .about-text {
+    margin: 0 20px;
+  }
+}
+
+.spans {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px 20px 40px 20px;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.progress-bar {
+  width: 2px;
+  height: 100vh;
+  background-color: teal;
+  position: fixed;
+  z-index: 1;
+}

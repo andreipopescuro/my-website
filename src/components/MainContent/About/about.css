@@ -1,0 +1,37 @@
+.aboutSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text {
+  text-align: center;
+  font-size: 34px;
+  margin: 0 90px;
+}
+
+.about-text div {
+  margin-bottom: 10px;
+}
+.myName {
+  color: rgb(43, 96, 96);
+}
+
+.linkedin-link {
+  text-decoration: none;
+  margin-left: 10px;
+}
+.animateTech {
+  display: inline-block;
+  animation: animateTechText 1s alternate infinite;
+}
+
+@keyframes animateTechText {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(10px);
+  }
+}

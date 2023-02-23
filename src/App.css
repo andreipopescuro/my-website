@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.headerWithAnimations {
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circleBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(24, 48, 48);
+}
+
+.animateCircle {
+  animation: circleAnimation;
+  animation-duration: 2s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes circleAnimation {
+  0% {
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+  }
+
+  50% {
+    border-radius: 0;
+    width: 200vw;
+    height: 200vh;
+    opacity: 0.7;
+  }
+
+  100% {
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
