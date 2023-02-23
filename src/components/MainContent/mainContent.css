@@ -127,7 +127,6 @@
 
 .progress-bar {
   width: 2px;
-  height: 100vh;
   background-color: teal;
   position: fixed;
   z-index: 1;

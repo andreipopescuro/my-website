@@ -4,7 +4,7 @@ import "./mainContent.css";
 import Projects from "./Projects/Projects";
 const MainContent = () => {
   const [pos, setPos] = useState("0%");
-  const [progress, setProgress] = useState(150);
+  const [progress, setProgress] = useState(0);
   const handleScroll = () => {
     // const documentHeight = document.documentElement.scrollHeight;
     const currentScroll = window.scrollY;

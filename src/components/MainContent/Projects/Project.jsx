@@ -29,7 +29,6 @@ const Project = ({
           <div className="project-title">{title}</div>
           <div>
             <a href={githubHref}>
-              {" "}
               <IoLogoGithub className="gh-icon" />
             </a>
           </div>
