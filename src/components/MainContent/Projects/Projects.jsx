@@ -95,7 +95,7 @@ const Projects = () => {
         />
       </FadeIn>
       <div className="source-code">
-        <a href="" target="_blank">
+        <a href="https://github.com/andreipopescuro/my-website" target="_blank">
           Source code
         </a>
       </div>
