@@ -2,6 +2,14 @@ import "./projects.css";
 import { useInView } from "react-intersection-observer";
 import FadeIn from "./FadeIn";
 import Project from "./Project";
+import NikeShopImg from "../../../assets/images/nike-shop-img.png";
+import MovieBaseImg from "../../../assets/images/movie-img.png";
+import CalculatorImg from "../../../assets/images/calculator-img.png";
+import ChatBotsImg from "../../../assets/images/chat-bots-img.png";
+import FindMyGameImg from "../../../assets/images/find-game-img.png";
+import PortofolioImg from "../../../assets/images/portofolio-img.png";
+import ShopImg from "../../../assets/images/shop-img.png";
+import FindGameImg from "../../../assets/images/game-img.png";
 
 const Projects = () => {
   return (
@@ -22,7 +30,7 @@ const Projects = () => {
             "Express",
             "Stripe",
           ]}
-          imgSrc={"/images/nike-shop-img.png"}
+          imgSrc={NikeShopImg}
           title={"FULL STACK E-COMMERCE"}
           websiteHref={"https://nike-shop-app.onrender.com/"}
           githubHref={"https://github.com/andreipopescuro/nike-shop-frontend"}
@@ -31,7 +39,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["Next.js", "Chakra-ui", "MongoDB", "Swiper"]}
-          imgSrc={"/images/movie-img.png"}
+          imgSrc={MovieBaseImg}
           title={"MOVIE APP"}
           websiteHref={"https://moviebase-omega.vercel.app/"}
           githubHref={
@@ -42,7 +50,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["HTML", "CSS", "Javascript"]}
-          imgSrc={"/images/calculator-img.png"}
+          imgSrc={CalculatorImg}
           title={"Calculator"}
           websiteHref={"https://elaborate-smakager-72920c.netlify.app/"}
           githubHref={"https://github.com/andreipopescuro/simple-js-calculator"}
@@ -51,7 +59,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["HTML", "CSS", "Javascript", "Firebase"]}
-          imgSrc={"/images/game-img.png"}
+          imgSrc={FindGameImg}
           title={"Game"}
           websiteHref={"https://clever-monstera-922cf5.netlify.app/"}
           githubHref={"https://github.com/andreipopescuro/mole-game"}
@@ -60,7 +68,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["HTML", "Javascript", "CSS", "Contenful"]}
-          imgSrc={"/images/shop-img.png"}
+          imgSrc={ShopImg}
           title={"Shop"}
           websiteHref={"https://clever-klepon-5dfadc.netlify.app/"}
           githubHref={"https://github.com/andreipopescuro/ls-shop"}
@@ -69,7 +77,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["HTML", "Javascript", "CSS"]}
-          imgSrc={"/images/portofolio-img.png"}
+          imgSrc={PortofolioImg}
           title={"Portofolio"}
           websiteHref={"https://mellow-kulfi-6b7fa1.netlify.app/"}
           githubHref={"https://github.com/andreipopescuro/html-portofolio"}
@@ -78,7 +86,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["React", "ChatGPT", "Tidio"]}
-          imgSrc={"/images/chat-bots-img.png"}
+          imgSrc={ChatBotsImg}
           title={"Chat Bots"}
           websiteHref={"https://bot-a591.onrender.com/"}
           githubHref={"https://github.com/andreipopescuro/simple-bots"}
@@ -87,7 +95,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["React", "ChatGPT", "Tailwind"]}
-          imgSrc={"/images/find-game-img.png"}
+          imgSrc={FindGameImg}
           title={"Find Your Game"}
           websiteHref={"https://find-game.onrender.com"}
           githubHref={"https://github.com/andreipopescuro/find-my-game"}
