@@ -9,7 +9,7 @@ import ChatBotsImg from "../../../assets/images/chat-bots-img.png";
 import FindMyGameImg from "../../../assets/images/find-game-img.png";
 import PortofolioImg from "../../../assets/images/portofolio-img.png";
 import ShopImg from "../../../assets/images/shop-img.png";
-import FindGameImg from "../../../assets/images/game-img.png";
+import GameImg from "../../../assets/images/game-img.png";
 
 const Projects = () => {
   return (
@@ -59,7 +59,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["HTML", "CSS", "Javascript", "Firebase"]}
-          imgSrc={FindGameImg}
+          imgSrc={GameImg}
           title={"Game"}
           websiteHref={"https://clever-monstera-922cf5.netlify.app/"}
           githubHref={"https://github.com/andreipopescuro/mole-game"}
@@ -95,7 +95,7 @@ const Projects = () => {
       <FadeIn className="project">
         <Project
           technologies={["React", "ChatGPT", "Tailwind"]}
-          imgSrc={FindGameImg}
+          imgSrc={FindMyGameImg}
           title={"Find Your Game"}
           websiteHref={"https://find-game.onrender.com"}
           githubHref={"https://github.com/andreipopescuro/find-my-game"}
