@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, lazy, Suspense } from "react";
 import About from "./About/About";
 import "./mainContent.css";
 import Projects from "./Projects/Projects";
+const LazyBg = lazy(() => import("./BgComponent"));
+
 const MainContent = () => {
   const [pos, setPos] = useState("0%");
   const [progress, setProgress] = useState(0);
@@ -21,15 +23,9 @@ const MainContent = () => {
         <About />
         <Projects />
       </div>
-      <div className="bg-slide">
-        <div className="progress-bar" style={{ height: `${progress}vh` }}></div>
-        <div
-          className="bg-img-wrapper"
-          style={{ backgroundPosition: `10% ${pos}` }}
-        >
-          <div className="black-shadow"></div>
-        </div>
-      </div>
+      <Suspense>
+        <LazyBg pos={pos} progress={progress} />
+      </Suspense>
     </div>
   );
 };
