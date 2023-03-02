@@ -113,12 +113,6 @@ const Projects = () => {
           githubHref={"https://github.com/andreipopescuro/ls-shop"}
         />
       </FadeIn>
-
-      <div className="source-code">
-        <a href="https://github.com/andreipopescuro/my-website" target="_blank">
-          Source code
-        </a>
-      </div>
     </div>
   );
 };

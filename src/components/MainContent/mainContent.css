@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap");
 
-.container {
+.containerr {
   font-family: "Shantell Sans", cursive;
   display: flex;
   background: linear-gradient(black, rgb(2, 8, 26));
@@ -121,6 +121,9 @@
   }
   .about-text {
     margin: 0 20px;
+  }
+  .name-email-wrapper {
+    flex-direction: column;
   }
 }
 

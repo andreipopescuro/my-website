@@ -2,6 +2,7 @@ import React, { useEffect, useState, lazy, Suspense } from "react";
 import About from "./About/About";
 import "./mainContent.css";
 import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 const LazyBg = lazy(() => import("./BgComponent"));
 
 const MainContent = () => {
@@ -18,10 +19,11 @@ const MainContent = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   });
   return (
-    <div className="container">
+    <div className="containerr">
       <div className="content-slide">
         <About />
         <Projects />
+        <Contact />
       </div>
       <Suspense>
         <LazyBg pos={pos} progress={progress} />
