@@ -28,7 +28,7 @@ const Project = ({
         <div className="project-title-container">
           <div className="project-title">{title}</div>
           <div>
-            <a href={githubHref}>
+            <a href={githubHref} target="_blank">
               <IoLogoGithub className="gh-icon" />
             </a>
           </div>
