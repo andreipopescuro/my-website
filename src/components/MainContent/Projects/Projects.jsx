@@ -84,7 +84,6 @@ const Projects = () => {
           title={"Find Your Game"}
           websiteHref={"https://find-game.onrender.com"}
           githubHref={"https://github.com/andreipopescuro/find-my-game"}
-          last={true}
         />
       </FadeIn>
       <FadeIn className="project">
@@ -130,6 +129,7 @@ const Projects = () => {
           title={"Shop"}
           websiteHref={"https://clever-klepon-5dfadc.netlify.app/"}
           githubHref={"https://github.com/andreipopescuro/ls-shop"}
+          last={true}
         />
       </FadeIn>
     </div>
