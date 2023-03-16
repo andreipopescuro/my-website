@@ -11,6 +11,7 @@ import PortofolioImg from "../../../assets/images/portofolio-img.png";
 import ShopImg from "../../../assets/images/shop-img.png";
 import GameImg from "../../../assets/images/game-img.png";
 import TodoImg from "../../../assets/images/todo-app-img.png";
+import SocialImg from "../../../assets/images/social-img.png";
 const Projects = () => {
   return (
     <div className="projects">
@@ -19,6 +20,40 @@ const Projects = () => {
         <span className="square-bracket" style={{ marginLeft: "5px" }}>
           &#91;
         </span>
+      </FadeIn>
+      <FadeIn className="project">
+        <Project
+          technologies={[
+            "React",
+            "React-query",
+            "Chakra-ui",
+            "Node",
+            "MongoDB",
+            "Express",
+          ]}
+          imgSrc={SocialImg}
+          title={"Social media"}
+          websiteHref={"https://social-media-frontend-isoo.onrender.com"}
+          githubHref={
+            "https://github.com/andreipopescuro/social-media-frontend"
+          }
+        />
+      </FadeIn>
+      <FadeIn className="project">
+        <Project
+          technologies={[
+            "React",
+            "Redux",
+            "Node",
+            "MongoDB",
+            "Express",
+            "Stripe",
+          ]}
+          imgSrc={NikeShopImg}
+          title={"E-commerce"}
+          websiteHref={"https://nike-shop-app.onrender.com/"}
+          githubHref={"https://github.com/andreipopescuro/nike-shop-frontend"}
+        />
       </FadeIn>
       <FadeIn className="project">
         <Project
@@ -40,22 +75,6 @@ const Projects = () => {
           githubHref={
             "https://github.com/andreipopescuro/postgresql-react-todo-frontend"
           }
-        />
-      </FadeIn>
-      <FadeIn className="project">
-        <Project
-          technologies={[
-            "React",
-            "Redux",
-            "Node",
-            "MongoDB",
-            "Express",
-            "Stripe",
-          ]}
-          imgSrc={NikeShopImg}
-          title={"E-commerce"}
-          websiteHref={"https://nike-shop-app.onrender.com/"}
-          githubHref={"https://github.com/andreipopescuro/nike-shop-frontend"}
         />
       </FadeIn>
       <FadeIn className="project">

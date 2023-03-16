@@ -101,6 +101,10 @@
   color: gray;
 }
 
+.React-query {
+  color: rgb(12, 85, 85);
+}
+
 .black-shadow {
   position: fixed;
   width: inherit;
