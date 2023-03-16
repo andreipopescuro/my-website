@@ -15,12 +15,20 @@ import SocialImg from "../../../assets/images/social-img.png";
 const Projects = () => {
   return (
     <div className="projects">
+      <div
+        style={{ textAlign: "center", margin: "50px 0px", color: "crimson" }}
+      >
+        Unfortunately, at this moment (March 2023) some of the projects cannot
+        be tested live because I have exceeded the maximum limit for the free
+        use of Render.com
+      </div>
       <FadeIn className="projects-title">
         Projects:
         <span className="square-bracket" style={{ marginLeft: "5px" }}>
           &#91;
         </span>
       </FadeIn>
+
       <FadeIn className="project">
         <Project
           technologies={[
