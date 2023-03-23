@@ -12,6 +12,8 @@ import ShopImg from "../../../assets/images/shop-img.png";
 import GameImg from "../../../assets/images/game-img.png";
 import TodoImg from "../../../assets/images/todo-app-img.png";
 import SocialImg from "../../../assets/images/social-img.png";
+import SudokuImg from "../../../assets/images/sudoku-game-img.png";
+
 const Projects = () => {
   return (
     <div className="projects">
@@ -71,6 +73,17 @@ const Projects = () => {
           websiteHref={"https://moviebase-omega.vercel.app/"}
           githubHref={
             "https://github.com/andreipopescuro/p2-dn-moviebase/tree/feauture-week-one"
+          }
+        />
+      </FadeIn>
+      <FadeIn className="project">
+        <Project
+          technologies={["React", "Typescript", "Electron"]}
+          imgSrc={SudokuImg}
+          title={"Sudoku game"}
+          githubHref={"https://github.com/andreipopescuro/sudoku-game"}
+          downloadUrl={
+            "https://github.com/andreipopescuro/sudoku-game/releases/download/v1/sudoku-game_1.0.0.exe"
           }
         />
       </FadeIn>

@@ -5,7 +5,6 @@ import MainContent from "./components/MainContent/MainContent";
 function App() {
   const [showCircle, setShowCircle] = useState(false);
   const [showContent, setShowContent] = useState(false);
-  console.log("I'm sorry, but at the moment the website is not responsive. ");
   return (
     <div className="App">
       {!showContent && (

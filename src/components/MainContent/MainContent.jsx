@@ -11,8 +11,8 @@ const MainContent = () => {
   const handleScroll = () => {
     // const documentHeight = document.documentElement.scrollHeight;
     const currentScroll = window.scrollY;
-    setProgress(currentScroll / 66);
-    setPos((prev) => `${currentScroll / 70}%`);
+    setProgress(currentScroll / 75);
+    setPos((prev) => `${currentScroll / 75}%`);
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

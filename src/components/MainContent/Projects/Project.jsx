@@ -1,5 +1,5 @@
 import React from "react";
-import { IoLogoGithub } from "react-icons/io5";
+import { IoDownloadOutline, IoLogoGithub } from "react-icons/io5";
 const Project = ({
   technologies,
   title,
@@ -7,6 +7,7 @@ const Project = ({
   githubHref,
   imgSrc,
   last,
+  downloadUrl,
 }) => {
   return (
     <div>
@@ -26,7 +27,18 @@ const Project = ({
           ))}
         </div>
         <div className="project-title-container">
-          <div className="project-title">{title}</div>
+          <div className="project-title">
+            <div className="title">{title}</div>
+            {downloadUrl && (
+              <a href={downloadUrl} className="download-anchor">
+                <div className="download-sudoku">
+                  <div>Download</div>
+                  <IoDownloadOutline size={24} />
+                </div>
+              </a>
+            )}
+          </div>
+
           <div>
             <a href={githubHref} target="_blank">
               <IoLogoGithub className="gh-icon" />

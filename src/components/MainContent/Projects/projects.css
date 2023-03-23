@@ -10,12 +10,13 @@
 }
 .project-title-container {
   display: flex;
-  justify-content: space-around;
 }
 
 .project-title {
   flex: 1;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .project-image-container {
@@ -69,5 +70,14 @@
 }
 
 .gh-icon:hover {
+  color: purple;
+}
+
+.download-sudoku {
+  display: flex;
+  gap: 5px;
+}
+
+.download-anchor:hover {
   color: purple;
 }

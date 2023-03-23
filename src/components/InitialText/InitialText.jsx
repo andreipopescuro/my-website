@@ -56,7 +56,6 @@ function InitialText({ setShowCircle }) {
           elements[i].style.color = color;
         } else if (i === 57 || i === 49) {
           elements[i].style.color = tealColor;
-          // elements[i].style.fontSize = "34px";
         } else {
           elements[i].style.color = color;
         }
