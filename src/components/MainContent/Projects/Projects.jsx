@@ -81,6 +81,7 @@ const Projects = () => {
           technologies={["React", "Typescript", "Electron"]}
           imgSrc={SudokuImg}
           title={"Sudoku game"}
+          websiteHref={"https://sudoku-game-web.onrender.com"}
           githubHref={"https://github.com/andreipopescuro/sudoku-game"}
           downloadUrl={
             "https://github.com/andreipopescuro/sudoku-game/releases/download/v1/sudoku-game_1.0.0.exe"
